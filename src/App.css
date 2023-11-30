@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Make the Navbar fixed at the top */
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Make the UserList scrollable */
+.user-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-top: 56px; /* Adjust the padding based on your Navbar height */
+}
+
+/* Make the Footer fixed at the bottom */
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 1000;
+}

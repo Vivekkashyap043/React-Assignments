@@ -1,0 +1,7 @@
+.size{
+    width: 800px;
+    height: 600px;
+    border: 2 px solid black;
+    align-items: center;
+    margin-top: 20px;
+}

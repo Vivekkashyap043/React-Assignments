@@ -22,5 +22,4 @@ function Reactjs() {
     </div>
   )
 }
-
 export default Reactjs
